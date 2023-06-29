@@ -1,0 +1,53 @@
+#xd {
+    align-items: left;
+    text-align: left; 
+}
+
+#d1{
+background-color: rgb(210, 214, 219);
+align-items: left;
+text-align: left;
+display: flex;
+}
+#d2{
+    background-color: rgb(210, 214, 219);
+    align-items: left;
+    text-align: left;
+}
+#d3{
+    background-color: rgb(210, 214, 219); 
+    align-items: left;
+    text-align: left;
+}
+#d4{
+    background-color: rgb(210, 214, 219);
+    align-items: left;
+    text-align: left; 
+}
+#nombre{
+    position: relative;
+    margin: 20px;
+}
+#img1{
+   
+   
+}
+.izquierda{
+order: 1;
+float: right;
+width: 100%;
+}
+.derecha{
+order:2;
+float: right;
+width: 40%;
+
+}
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #tit{
+    text-align: center;
+  }

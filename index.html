@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="css/funciones.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    
+   <div class="container" id="d1"  >
+    <div class="izquierda">
+  <form >
+    <h3>Datos Personales</h3>
+  
+    <label for="nombree">Nombre: </label> <input type="text" id="nombre" placeholder="Escriba su nombre" >
+    <br>
+    <label for="Apellidoo">Apellido: </label> <input type="text" id="Apellido" placeholder="Escriba su Apellido">
+   
+    <br>
+    <br>
+    <label for="Sexo"> Sexo: </label>  
+        <select id="sexo">
+        <option disabled selected>Escoja una opción</option>
+        <option id="M" value=" Masculino">Masculino</option>
+        <option id="F"  value="Femenino">Femenino</option>
+      </select><br><br>
+      <label> porfavor al momento de ingresar la fecha siga el ejemplo que me muestra en el recuadro</label>
+    <br><br>
+    <label for="fecha_nac">Fecha Nacimiento:</label> <input type="text" id="Fecha_nac" placeholder="22/12/2023">
+		<br>
+    <br>
+    <label for="fecha_ing">Fecha de Ingreso:</label> <input type="text" id="Fecha_Ingre" placeholder="22/12/2023"> 
+		<br>
+    <br>
+  </form>
+</div>
+<div class="derecha">
+  <img src="img/img1.jpg" width="400px" height="350px">
+</div>
+ 
+</div>
+  <br><br>
+
+  <div  class="container" id="d2">
+    <form >
+      <h3>Salario</h3>
+      <div class="input-group mb-2" >
+      <label>$  </label><label type="text" class="form-control" style="width: 100px;" id="sal" name="sal"
+      ></label>
+      <a id="modificar" class=" btn btn-secondary" onclick="modificar()">Modificar</a>
+  </div>
+    
+  </form>
+  </div>
+  <br>
+  <div  class="container" id="d3">
+    <h3>Calculos</h3>
+    <div class="input-group mb-2">
+    <a id="caledad" class=" btn btn-secondary" onclick="calcularedad()">calcular edad</a> <label type="text"  class="form-control" id="cedad" name="cedad"> </label>
+  </div>
+    <br>
+    <div class="input-group mb-2">
+    <a id="calanti" class=" btn btn-secondary" onclick="calcularantiguedad()">Calcular Antiguedad</a> <label type="text"  class="form-control" id="cantiguedad" name="cantiguedad"> </label>
+  </div>
+    <br>
+    <div class="input-group mb-2">
+    <a id="calpres" class=" btn btn-secondary" onclick="calcularPres()">Calcular Prestaciones</a> <label>$  </label> <label type="text"  class="form-control" id="cpres" name="cpres"> </label>
+  </div>
+    <br>
+  </div>
+  <br>
+  <div  class="container" id="d4">
+    <h3>Puntos de Extension</h3>
+    <a id="op1" class=" btn btn-secondary" onclick="op1()">Opcion1</a> <a id="op2" class=" btn btn-secondary" onclick="op2()">Opcion2</a>
+  </div>
+  
+
+  
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script type="text/javascript" src="js/funcioness.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
+
+</body>
+</html>
