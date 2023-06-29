@@ -107,6 +107,65 @@
       <button class="btn btn-success" onclick="mostrarInformacion()" > Mostrar Informacion </button>
     </div>
   </div>
+  <div id="infoo" style="display: none;">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Genero</th>
+          <th scope="col">Fecha Nacimiento</th>
+          <th scope="col">Fecha Ingreso</th>
+          <th scope="col">Salario</th>
+          <th scope="col">Prestaciones</th>
+          <th scope="col">nivel de estudio</th>
+          <th scope="col">Nom carrera</th>
+          <th scope="col">Nom Universidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><label for="nam" id="nam"></label></th>
+          <th scope="row"><label for="ape" id="ape"></label></th>
+          <th scope="row"><label for="sex" id="sex"></label></th>
+          <th scope="row"><label for="fchnac" id="fchnac"></label></th>
+          <th scope="row"><label for="feching" id="feching"></label></th>
+          <th scope="row"><label for="salf" id="salf"></label>$ </th>
+          <th scope="row"><label for="prestar" id="prestar">$ </label></th>
+          <th scope="row"><label for="nivelf" id="nivelf"></label></th>
+          <th scope="row"><label for="nomc" id="nomc"></label></th>
+          <th scope="row"><label for="nomu" id="nomu"></label></th>
+        </tr>
+      </tbody>
+    </table>
+
+    <button class="btn btn-danger" onclick="cerrar()" > Cerrar </button>
+  </div>
+  <div id="jubilacion" style="display: none;">
+    <h2 id="tit">años restantes para jubilarse</h2>
+     <label for="jubil"> En Colombia los hombres se jubilan a los 62 años y las mujeres a los 57 años y 1300 semanas de trabajo</label><br>
+     <div class="input-group mb-2" >
+     <label type="text" class="form-control" style="width: 100%;" id="jub" name="jub" ></label>
+    
+       <button class="btn btn-success" onclick="Calcular()" > Calcular </button>
+     <br>
+     
+   </div>
+   <label for="jubil"> Semanas </label><br>
+   <div class="input-group mb-2" >
+     <label type="text" class="form-control" style="width: 100%;" id="jubsem" name="jubsem" ></label>
+    
+       <button class="btn btn-success" onclick="Calcular2()" > Calcular </button>
+   </div>
+   <button class="btn btn-danger" onclick="cerrar2()" > Cerrar </button>
+   </div>
+   
+  </div>
+
+
+  </div>
+
   
 
   
@@ -116,7 +175,7 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
-  <script type="text/javascript" src="js/funcioness.js"></script>
+  <script type="text/javascript" src="js/funcionesss.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
 
 </body>
