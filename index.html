@@ -88,6 +88,24 @@
   <div  class="container" id="d4">
     <h3>Puntos de Extension</h3>
     <a id="op1" class=" btn btn-secondary" onclick="op1()">Opcion1</a> <a id="op2" class=" btn btn-secondary" onclick="op2()">Opcion2</a>
+    <div id="adicionaal" style="display: none;">
+      <label for="hobbies"> Nivel de Estudio </label> 
+        <select id="Niveles">
+        <option disabled selected>Escoja una opción</option>
+        <option value=" Primaria">Primaria</option>
+        <option value="Secundaria">Secundaria</option>
+        <option value="Bachiller">Bachiller</option>
+        <option value="Tecnico">Tecnico</option>
+        <option value="Profesional">Profesional</option>
+        <option value="Doctorado">Doctorado</option>
+      </select><br>
+      <label for="hobbies"> Nombre la carrera </label> 
+      <input type="text" id="carrera"><br>
+      <label for="hobbies"> Nombre de Universidad </label> 
+      <input type="text" placeholder="Nombre de Universidad" id="universidad" ><br>
+      <div class="container" id="info">
+      <button class="btn btn-success" onclick="mostrarInformacion()" > Mostrar Informacion </button>
+    </div>
   </div>
   
 
